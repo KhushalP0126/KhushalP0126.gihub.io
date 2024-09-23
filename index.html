@@ -1,43 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link to CSS file -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Khushal Pandala's Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
     <header>
-        <h1>Khushal Pandala's Portfolio</h1>
+        <div class="container">
+            <h1>Khushal Pandala</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <section id="about" class="about">
-        <h2>About Me</h2>
-        <p>Welcome to my portfolio!
-I’m an enthusiastic and driven web developer with a passion for turning ideas into interactive, functional, and visually appealing digital experiences. Whether it’s diving into the latest technologies or refining the essentials, I’m constantly pushing myself to learn, innovate, and grow in this ever-evolving field.
 
-</p>
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Welcome to my portfolio! I’m an enthusiastic web developer passionate about turning ideas into interactive digital experiences. Whether I’m learning the latest tech or refining my craft, I’m always eager to grow.</p>
+        </div>
     </section>
-    
+
     <section id="skills" class="skills">
-        <h2>Skills</h2>
-        <p>HTML, CSS, JavaScript, Python, C++</p>
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Python</li>
+                <li>React.js</li>
+            </ul>
+        </div>
     </section>
-    
+
     <section id="projects" class="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>Portfolio Website</li>
-        </ul>
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-list">
+                <div class="project-item">
+                    <h3>Portfolio Website</h3>
+                    <p>A personal portfolio site showcasing my skills and projects.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Weather App</h3>
+                    <p>A responsive weather forecasting app built with JavaScript.</p>
+                </div>
+                <div class="project-item">
+                    <h3>Task Management System</h3>
+                    <p>A system to track tasks, built with Python and Flask.</p>
+                </div>
+            </div>
+        </div>
     </section>
-    
+
     <section id="contact" class="contact">
-        <h2>Contact</h2>
-        <p>Email: khushalp0612@gmail.com</p>
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: khushal.pandala@example.com</p>
+        </div>
     </section>
-    
+
     <footer>
-        <p>&copy; 2024 Khushal Pandala</p>
+        <div class="container">
+            <p>&copy; 2024 Khushal Pandala. All rights reserved.</p>
+        </div>
     </footer>
 </body>
+
 </html>
