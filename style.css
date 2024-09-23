@@ -1,0 +1,88 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* About section */
+.about {
+    background-color: #e0f7fa;
+    padding: 20px;
+}
+
+.about h2 {
+    color: #00695c;
+}
+
+.about p {
+    font-size: 1.2em;
+}
+
+/* Skills section */
+.skills {
+    background-color: #fce4ec;
+    padding: 20px;
+}
+
+.skills h2 {
+    color: #ad1457;
+}
+
+.skills p {
+    font-size: 1.2em;
+}
+
+/* Projects section */
+.projects {
+    background-color: #f3e5f5;
+    padding: 20px;
+}
+
+.projects h2 {
+    color: #6a1b9a;
+}
+
+.projects ul {
+    list-style-type: square;
+}
+
+.projects li {
+    font-size: 1.1em;
+    margin: 5px 0;
+}
+
+/* Contact section */
+.contact {
+    background-color: #ffe0b2;
+    padding: 20px;
+}
+
+.contact h2 {
+    color: #ef6c00;
+}
+
+.contact p {
+    font-size: 1.2em;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
