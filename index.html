@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portfolio of Khushal Pandala, a web developer specializing in interactive digital experiences, JavaScript, and React.js.">
     <title>Khushal Pandala's Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles.css"> <!-- Link to the CSS file -->
+    <!-- Font Awesome for skill icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
 
 <body>
@@ -35,11 +38,11 @@
         <div class="container">
             <h2>Skills</h2>
             <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>Python</li>
-                <li>React.js</li>
+                <li><i class="fab fa-html5"></i> HTML</li>
+                <li><i class="fab fa-css3-alt"></i> CSS</li>
+                <li><i class="fab fa-js"></i> JavaScript</li>
+                <li><i class="fab fa-python"></i> Python</li>
+                <li><i class="fab fa-react"></i> React.js</li>
             </ul>
         </div>
     </section>
@@ -59,9 +62,7 @@
                 <div class="project-item">
                     <h3>Bot Awareness Project</h3>
                     <p>This project discusses issues caused by bots on social media platforms.</p>
-                    <!-- Link to the PDF or other files inside folders -->
                     <p><a href="files/Bots_Problem_Statement.pdf">Download Bot Awareness Problem Statement</a></p>
-                    <!-- Example of linking to another document -->
                     <p><a href="files/Report_Document.pdf">Download Report Document</a></p>
                 </div>
             </div>
@@ -72,6 +73,13 @@
         <div class="container">
             <h2>Contact</h2>
             <p>Email: khushalp0612@gmail.com</p>
+            <form action="mailto:khushalp0612@gmail.com" method="post" enctype="text/plain">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                <input type="submit" value="Submit">
+            </form>
         </div>
     </section>
 
