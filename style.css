@@ -53,9 +53,13 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover {
+    color: #0779e4;
+}
+
 /* Section styling */
 section {
-    padding: 20px 0;
+    padding: 40px 0;
     text-align: center;
 }
 
@@ -64,11 +68,19 @@ section h2 {
     color: #0779e4;
 }
 
+/* About Section */
 .about {
     background-color: #fff;
     padding: 40px 0;
 }
 
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+
+/* Skills Section */
 .skills {
     background-color: #eee;
 }
@@ -80,30 +92,91 @@ section h2 {
     padding: 0;
 }
 
+.skills li {
+    font-size: 1.2rem;
+}
+
+.skills li i {
+    margin-right: 10px;
+}
+
+/* Projects Section */
 .projects {
     background-color: #fff;
 }
 
 .project-list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
 .project-item {
     background: #f9f9f9;
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 20px;
     width: 30%;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
 .project-item h3 {
     color: #0779e4;
+    margin-bottom: 10px;
 }
 
-/* Contact section */
+.project-item p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.project-item a {
+    color: #0779e4;
+    text-decoration: none;
+}
+
+.project-item a:hover {
+    text-decoration: underline;
+}
+
+/* Contact Section */
 .contact {
     background-color: #eee;
     padding: 40px 0;
+}
+
+.contact p {
+    font-size: 1.2rem;
+}
+
+.contact form {
+    margin-top: 20px;
+}
+
+.contact form label {
+    font-size: 1rem;
+}
+
+.contact form input[type="text"],
+.contact form input[type="email"] {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.contact form input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    background-color: #0779e4;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact form input[type="submit"]:hover {
+    background-color: #055bb5;
 }
 
 /* Footer styling */
@@ -117,3 +190,6 @@ footer {
     width: 100%;
 }
 
+footer p {
+    margin: 0;
+}
