@@ -26,7 +26,7 @@ header {
     background: rgba(51, 51, 51, 0.85);
     color: #fff;
     padding: 20px;
-    border-bottom: 3px solid #0779e4;
+    border-bottom: 3px solid #3ab795; /* Teal color */
     text-align: center;
     position: sticky;
     top: 0;
@@ -58,7 +58,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #0779e4;
+    color: #3ab795; /* Teal color */
 }
 
 /* Section styling */
@@ -69,7 +69,7 @@ section {
 
 section h2 {
     font-size: 32px;
-    color: #0779e4;
+    color: #3ab795; /* Teal color */
     margin-bottom: 30px;
 }
 
@@ -97,7 +97,7 @@ section h2 {
 }
 
 .skills ul li {
-    background: #0779e4;
+    background: #3ab795; /* Teal color */
     color: #fff;
     padding: 10px 20px;
     margin: 10px;
@@ -106,7 +106,7 @@ section h2 {
 }
 
 .skills ul li:hover {
-    background: #00bfae;
+    background: #2a8a6b; /* Darker teal for hover */
 }
 
 /* Projects section */
@@ -118,7 +118,7 @@ section h2 {
 
 .project-list {
     display: flex;
-    flex-direction: column; /* Projects will be in a single column */
+    flex-direction: column;
     align-items: center;
 }
 
@@ -126,10 +126,11 @@ section h2 {
     background: #f9f9f9;
     border: 2px solid #ddd;
     padding: 20px;
-    width: 100%; /* Ensure each project takes full width */
+    width: 100%;
     margin: 20px 0;
     border-radius: 10px;
     transition: transform 0.3s ease;
+    text-align: center;
 }
 
 .project-item:hover {
@@ -137,7 +138,7 @@ section h2 {
 }
 
 .project-item h3 {
-    color: #0779e4;
+    color: #3ab795; /* Teal color */
     font-size: 24px;
     margin-bottom: 15px;
 }
@@ -150,6 +151,12 @@ section h2 {
 .project-item a img {
     max-width: 100%;
     border-radius: 5px;
+    margin-top: 10px;
+    transition: transform 0.3s;
+}
+
+.project-item a img:hover {
+    transform: scale(1.02);
 }
 
 /* Contact section */
@@ -177,29 +184,6 @@ footer {
 
 footer p {
     font-size: 16px;
-}
-
-/* Mission Statement Section */
-.mission {
-    background-color: rgba(255, 255, 255, 0.85); /* Light background with slight transparency */
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-}
-
-.mission h2 {
-    font-size: 32px;
-    color: #0779e4;
-    margin-bottom: 20px;
-}
-
-.mission p {
-    font-size: 18px;
-    color: #333;
-    line-height: 1.6;
-    margin: 0 auto;
-    max-width: 800px;
-    text-align: center;
 }
 
 /* Responsive styling for smaller screens */
