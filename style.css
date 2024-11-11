@@ -179,6 +179,29 @@ footer p {
     font-size: 16px;
 }
 
+/* Mission Statement Section */
+.mission {
+    background-color: rgba(255, 255, 255, 0.85); /* Light background with slight transparency */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.mission h2 {
+    font-size: 32px;
+    color: #0779e4;
+    margin-bottom: 20px;
+}
+
+.mission p {
+    font-size: 18px;
+    color: #333;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+}
+
 /* Responsive styling for smaller screens */
 @media (max-width: 768px) {
     nav ul {
